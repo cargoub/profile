@@ -1,0 +1,69 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700&display=swap');
+</style>
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300; /* if you want the light version */
+  color: white
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    color: white
+}
+h1, h2, h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  color: white
+}
+.container {
+  margin: 0 auto; /* This automatically sets left/right margins */
+  border: 3px;
+}
+.card {
+  background: #F6A713;
+  padding: 30px 40px;
+  border: 1px solid grey;
+}
+.profile_image {
+  padding: 30px auto;
+  margin: 0 auto;
+}
+#profile_image {
+  border-radius: 50%;
+}
+.text-center {
+  text-align: center;
+}
+.container {
+    width: 700px;
+  }
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+#lien {
+  background-color: red;
+  color: white
+}
